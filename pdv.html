@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CybhorPDV — Caixa para loja | Cybhor Tech</title>
+  <meta name="description" content="Sistema de caixa com estoque, cupom impresso e vendas mesmo sem internet. Teste 30 dias grátis." />
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="site.css?v=20261027o" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="index.html" class="marca">
+        <img src="img/logo-branco.svg" width="28" height="28" alt="" class="marca-clara" />
+        <img src="img/logo.svg" width="28" height="28" alt="" class="marca-escura" />
+        <span>Cybhor <strong>Tech</strong></span>
+      </a>
+
+      <button type="button" class="menu-abrir" id="menu-abrir" aria-expanded="false" aria-controls="menu-principal">
+        Menu
+      </button>
+
+      <nav class="menu" id="menu-principal" aria-label="Principal">
+        <div class="menu-item" data-dropdown>
+          <button type="button" class="menu-gatilho" aria-expanded="false">Produtos</button>
+          <div class="menu-painel" hidden>
+            <a href="pdv.html"><strong>CybhorPDV</strong><span>Caixa para loja física</span></a>
+            <a href="looma.html"><strong>Looma</strong><span>Shopping online para sua loja</span></a>
+            <a href="sob-medida.html"><strong>Projeto sob medida</strong><span>Site, sistema ou automação feitos do zero para você</span></a>
+          </div>
+        </div>
+        <a href="segmentos.html">Segmentos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="pesquisa.html" class="btn-pesquisa-nav">Pesquisa IA</a>
+        <button type="button" class="btn-contato" data-abrir-contato>Entre em contato</button>
+        <div class="menu-item" data-dropdown>
+          <button type="button" class="menu-gatilho menu-cliente" aria-expanded="false">Sou cliente</button>
+          <div class="menu-painel" hidden>
+            <a href="https://pdv.cybhor.tech/login.html" target="_blank" rel="noopener">Entrar no CybhorPDV</a>
+            <a href="https://looma.cybhor.tech/login.html" target="_blank" rel="noopener">Entrar na Looma</a>
+            <a href="https://looma.cybhor.tech/seller-dashboard.html" target="_blank" rel="noopener">Painel da loja (Looma)</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="pagina-hero">
+      <div class="container pagina-hero-conteudo">
+        <p class="eyebrow eyebrow-claro">Produto</p>
+        <p class="produto-nome produto-nome-claro">CybhorPDV</p>
+        <h1>O caixa da sua loja, sem fila e com o estoque certo.</h1>
+        <p class="pagina-hero-lead">Para mercados, padarias, lojas de roupa, conveniências e qualquer negócio com balcão.</p>
+        <div class="acoes">
+          <a class="btn-claro" href="https://pdv.cybhor.tech/cadastro.html?plano=teste" target="_blank" rel="noopener">Testar 30 dias grátis</a>
+          <a class="btn-fantasma" href="https://pdv.cybhor.tech" target="_blank" rel="noopener">Abrir o CybhorPDV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container produto revelar">
+        <div class="produto-texto">
+          <ul class="beneficios">
+            <li><strong>Venda em segundos.</strong> Bipe o código de barras ou busque pelo nome; o troco sai calculado.</li>
+            <li><strong>A internet caiu? Continue vendendo.</strong> As vendas ficam no computador e sobem sozinhas quando a conexão volta.</li>
+            <li><strong>Cupom na hora.</strong> Compatível com impressoras térmicas comuns, como a Jetway JP-800.</li>
+            <li><strong>Estoque que se atualiza sozinho.</strong> Cada venda baixa o produto e o sistema avisa antes de faltar.</li>
+            <li><strong>Roda no computador que você já tem.</strong> Inclusive máquinas antigas com Windows 7.</li>
+            <li><strong>Vários caixas e funcionários.</strong> Cada um com seu login; você acompanha as vendas no navegador.</li>
+          </ul>
+          <p class="entrar-valores">
+            <a href="https://pdv.cybhor.tech" target="_blank" rel="noopener">Entre no site para ver os valores</a>
+          </p>
+          <div class="acoes">
+            <a class="btn-tinta" href="https://pdv.cybhor.tech/cadastro.html?plano=teste" target="_blank" rel="noopener">Testar 30 dias grátis</a>
+            <a class="btn-contorno" href="https://pdv.cybhor.tech" target="_blank" rel="noopener">Abrir o CybhorPDV</a>
+          </div>
+        </div>
+        <figure class="produto-figura">
+          <img src="img/pdv-caixa.webp" width="1280" height="760" loading="lazy"
+               alt="Tela do caixa do CybhorPDV com produtos, carrinho e total da venda" />
+          <figcaption>Tela real do caixa do CybhorPDV.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="secao secao-cta">
+      <div class="container cta-faixa">
+        <div>
+          <p class="eyebrow eyebrow-claro">Outras soluções</p>
+          <h2>Além do PDV: Looma pronta ou projeto sob medida.</h2>
+        </div>
+        <div class="acoes">
+          <a class="btn-fantasma" href="looma.html">Ver Looma</a>
+          <a class="btn-claro" href="sob-medida.html">Projeto sob medida</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <dialog id="contato" class="contato-dialog" aria-labelledby="contato-titulo">
+    <form method="dialog" class="contato-dialog-topo">
+      <h2 id="contato-titulo">Entre em contato</h2>
+      <button type="submit" class="contato-fechar" aria-label="Fechar">×</button>
+    </form>
+    <p class="contato-intro">Conte o que precisa. Fazemos <strong>projeto sob medida</strong> (site, sistema ou automação) e também indicamos o CybhorPDV ou a Looma se um produto pronto já resolver. Proposta sem compromisso.</p>
+    <form id="form-orcamento" class="formulario" novalidate data-whatsapp="" data-instagram="cybhortech">
+      <label class="campo">
+        <span>Seu nome</span>
+        <input name="nome" type="text" required minlength="2" maxlength="80" autocomplete="name" />
+      </label>
+      <label class="campo">
+        <span>Nome da empresa <small>(opcional)</small></span>
+        <input name="empresa" type="text" maxlength="80" autocomplete="organization" />
+      </label>
+      <label class="campo">
+        <span>O que você precisa?</span>
+        <select name="tipo" required>
+          <option value="">Escolha uma opção</option>
+          <option>Projeto sob medida (site, sistema ou automação)</option>
+          <option>Um site sob medida</option>
+          <option>Um sistema sob medida</option>
+          <option>Automatizar uma tarefa sob medida</option>
+          <option>Usar o CybhorPDV (produto pronto)</option>
+          <option>Vender na Looma (produto pronto)</option>
+          <option>Ainda não sei — quero orientação</option>
+        </select>
+      </label>
+      <label class="campo">
+        <span>Conte em poucas palavras</span>
+        <textarea name="descricao" rows="4" required minlength="10" maxlength="1000"
+                  placeholder="Ex.: preciso de um sistema sob medida para agenda e pedidos da minha clínica."></textarea>
+      </label>
+      <label class="campo">
+        <span>Seu WhatsApp</span>
+        <input name="whatsapp" type="tel" required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="(11) 99999-9999" />
+      </label>
+      <p class="form-erro" id="form-erro" role="alert" hidden></p>
+      <button type="submit" class="btn-claro">Enviar pedido</button>
+      <p class="form-retorno" id="form-retorno" role="status" hidden></p>
+    </form>
+  </dialog>
+
+  <footer class="rodape">
+    <div class="container rodape-grade">
+      <div>
+        <p class="rodape-marca">Cybhor Tech</p>
+        <p>Produtos prontos e projetos sob medida para o seu negócio.</p>
+        <p class="rodape-marca-linha">cybhor.tech</p>
+      </div>
+      <div>
+        <p class="rodape-titulo">Soluções</p>
+        <a href="pdv.html">CybhorPDV</a>
+        <a href="looma.html">Looma</a>
+        <a href="sob-medida.html">Projeto sob medida</a>
+      </div>
+      <div>
+        <p class="rodape-titulo">Cliente</p>
+        <a href="https://pdv.cybhor.tech/login.html" target="_blank" rel="noopener">Área do CybhorPDV</a>
+        <a href="https://looma.cybhor.tech/login.html" target="_blank" rel="noopener">Área da Looma</a>
+        <button type="button" class="rodape-contato" data-abrir-contato>Entre em contato</button>
+      </div>
+      <div>
+        <p class="rodape-titulo">Empresa</p>
+        <a href="pesquisa.html">Pesquisa IA</a>
+        <a href="segmentos.html">Segmentos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="https://instagram.com/cybhortech" target="_blank" rel="noopener">Instagram @cybhortech</a>
+      </div>
+    </div>
+    <div class="container rodape-base">
+      <span>© Cybhor Tech · cybhor.tech</span>
+    </div>
+  </footer>
+
+  <script src="site.js?v=20261027o"></script>
+</body>
+</html>

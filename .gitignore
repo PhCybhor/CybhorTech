@@ -1,0 +1,4 @@
+graphify-out/
+.cursor/
+*.log
+.DS_Store

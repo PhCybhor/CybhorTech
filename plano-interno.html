@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybhor Tech — Projetos, soluções e plano de execução</title>
+  <meta name="description" content="Cybhor Tech: CybhorPDV, Luma marketplace, criação de sites e sistemas sob medida. Portfólio de projetos concluídos e plano de execução." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="cybertech.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="#inicio" class="marca">Cybhor<strong>Tech</strong></a>
+      <nav class="menu" aria-label="Seções">
+        <a href="#produtos">Produtos</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#sites">Sites</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#desafios">Desafios</a>
+        <a href="#plano" class="btn-contorno">Plano</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="abertura">
+      <div class="container">
+        <p class="sobretitulo">cybhor.tech</p>
+        <h1>Software para quem opera loja e time.</h1>
+        <p class="abertura-sub">
+          A Cybhor Tech faz sistemas de caixa, marketplace, sites e ferramentas internas.
+          Esta página reúne o que já está no ar, o que a empresa oferece e o plano dos próximos 90 dias.
+        </p>
+      </div>
+    </section>
+
+    <section id="produtos" class="secao">
+      <div class="container">
+        <h2>Produtos no ar</h2>
+        <p class="secao-intro">Clique para abrir. Os dois responderam em produção na conferência de 25/10/2026.</p>
+
+        <div class="grade-produtos">
+          <article class="produto">
+            <div class="produto-topo">
+              <h3>CybhorPDV</h3>
+              <span class="estado estado-ok">No ar</span>
+            </div>
+            <p class="produto-dominio">pdv.cybhor.tech</p>
+            <p>Caixa para mercados, padarias e lojas. App Windows (7 a 11) que vende mesmo sem internet, baixa o estoque a cada venda e imprime cupom na térmica. A loja acompanha as vendas pelo site.</p>
+            <p class="produto-preco">A partir de R$ 99,90/mês · teste de 30 dias · sem fidelidade</p>
+            <div class="acoes">
+              <a class="btn-tinta" href="https://pdv.cybhor.tech" target="_blank" rel="noopener">Abrir o PDV</a>
+              <a class="btn-contorno" href="https://pdv.cybhor.tech/login.html" target="_blank" rel="noopener">Área do cliente</a>
+              <a class="btn-contorno" href="https://pdv.cybhor.tech/cadastro.html?plano=teste" target="_blank" rel="noopener">Teste grátis</a>
+            </div>
+            <p class="produto-local">No workspace: <a href="../sistemaPDV/landing/index.html">site</a> · <a href="../sistemaPDV/README.md">README</a> · <a href="../sistemaPDV/server/">API</a></p>
+          </article>
+
+          <article class="produto">
+            <div class="produto-topo">
+              <h3>Luma</h3>
+              <span class="estado estado-ok">No ar</span>
+            </div>
+            <p class="produto-dominio">looma.cybhor.tech</p>
+            <p>Marketplace com várias lojas num só catálogo. Cada loja tem página própria, painel de vendedor e carteira; o pagamento é dividido automaticamente pelo Mercado Pago. Lojas são conferidas por CNPJ.</p>
+            <p class="produto-preco">Comissão da plataforma sobre cada venda (padrão de 10%)</p>
+            <div class="acoes">
+              <a class="btn-tinta" href="https://looma.cybhor.tech" target="_blank" rel="noopener">Abrir a Luma</a>
+              <a class="btn-contorno" href="https://looma.cybhor.tech/seller-dashboard.html" target="_blank" rel="noopener">Venda na Luma</a>
+              <a class="btn-contorno" href="https://looma.cybhor.tech/meus-pedidos.html" target="_blank" rel="noopener">Minhas compras</a>
+            </div>
+            <p class="produto-local">No computador: <a href="file:///home/pedro/LoomaCybhor/">pasta LoomaCybhor</a> · <a href="https://github.com/PhCybhor/LoomaMarketplace" target="_blank" rel="noopener">repositório (privado)</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="solucoes" class="secao secao-painel">
+      <div class="container">
+        <h2>O que a Cybhor Tech faz</h2>
+        <p class="secao-intro">Cada frente abaixo já tem pelo menos um projeto entregue que serve de prova.</p>
+        <div class="lista-duas-colunas">
+          <article class="item-lista">
+            <h3>Sistemas de caixa e varejo</h3>
+            <p>PDV desktop com estoque, vários caixas por loja, impressão ESC/POS, leitor de código de barras e relatórios.</p>
+            <p class="prova">Prova: CybhorPDV</p>
+          </article>
+          <article class="item-lista">
+            <h3>Marketplace e pagamentos</h3>
+            <p>Lojas múltiplas, carrinho, checkout Mercado Pago (Pix, cartão, boleto), divisão de pagamento e webhooks.</p>
+            <p class="prova">Prova: Luma, checkout do CybhorPDV</p>
+          </article>
+          <article class="item-lista">
+            <h3>Portais e ferramentas internas</h3>
+            <p>Tarefas, equipes, financeiro e acompanhamento de entregas, com login e permissões por papel.</p>
+            <p class="prova">Prova: Portal Cybhor</p>
+          </article>
+          <article class="item-lista">
+            <h3>CRM e prospecção</h3>
+            <p>Base de leads com atualização em tempo real, importação e exportação CSV, auditoria e lista de não-contato (LGPD).</p>
+            <p class="prova">Prova: Sistema de Leads</p>
+          </article>
+          <article class="item-lista">
+            <h3>Automação de documentos</h3>
+            <p>Scripts que transformam levantamentos e fotos em documentos prontos no modelo do cliente.</p>
+            <p class="prova">Prova: Levantamento patrimonial</p>
+          </article>
+          <article class="item-lista">
+            <h3>Infraestrutura e publicação</h3>
+            <p>Deploy automático (GitHub Actions), Hostinger e VPS com Docker, backups cifrados e banco com permissão mínima.</p>
+            <p class="prova">Prova: deploy do PDV, VPS do Sistema de Leads</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sites" class="secao">
+      <div class="container">
+        <h2>Criação de sites</h2>
+        <p class="secao-intro">Sites rápidos, sem construtor pesado e sem tema pronto. O site do CybhorPDV é o exemplo: cadastro, pagamento e área do cliente no mesmo lugar.</p>
+        <table class="tabela">
+          <thead>
+            <tr><th>Tipo</th><th>Para quem</th><th>O que vem</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Página de venda</td>
+              <td>Produto, serviço local, lançamento</td>
+              <td>Texto de venda, botão de WhatsApp ou formulário, versão celular, SEO básico</td>
+            </tr>
+            <tr>
+              <td>Site institucional</td>
+              <td>Empresa, clínica, escritório, indústria</td>
+              <td>Páginas de empresa, serviços, casos e contato; domínio e HTTPS</td>
+            </tr>
+            <tr>
+              <td>Loja ou catálogo</td>
+              <td>Loja física que quer vender online</td>
+              <td>Catálogo com busca, carrinho e pagamento Mercado Pago, ou loja dentro da Luma</td>
+            </tr>
+            <tr>
+              <td>Portal com login</td>
+              <td>Assinatura, escola, software</td>
+              <td>Cadastro, login (inclusive Google), painel do cliente, downloads e solicitações</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="nota">Preço e prazo de cada tipo ainda não estão fechados: é a tarefa 3.1 do plano.</p>
+      </div>
+    </section>
+
+    <section id="portfolio" class="secao secao-painel">
+      <div class="container">
+        <h2>Projetos concluídos</h2>
+        <p class="secao-intro">Tudo que já foi entregue. Links locais abrem a pasta ou o arquivo neste computador.</p>
+        <ul class="portfolio">
+          <li>
+            <div class="portfolio-cabeca">
+              <h3>CybhorPDV 3.2</h3>
+              <span class="estado estado-ok">No ar</span>
+            </div>
+            <p>PDV desktop em Electron, API Node.js + MySQL na Hostinger, site com assinatura via Mercado Pago e painel de vendas da loja.</p>
+            <p class="links"><a href="https://pdv.cybhor.tech" target="_blank" rel="noopener">pdv.cybhor.tech</a> · <a href="../sistemaPDV/">código</a></p>
+          </li>
+          <li>
+            <div class="portfolio-cabeca">
+              <h3>Luma (Looma Marketplace)</h3>
+              <span class="estado estado-ok">No ar</span>
+            </div>
+            <p>Vitrine, painel do vendedor, painel administrativo de moderação, carteira e pagamento dividido. Node.js, Express e MySQL.</p>
+            <p class="links"><a href="https://looma.cybhor.tech" target="_blank" rel="noopener">looma.cybhor.tech</a> · <a href="file:///home/pedro/LoomaCybhor/">código</a></p>
+          </li>
+          <li>
+            <div class="portfolio-cabeca">
+              <h3>Portal Cybhor</h3>
+              <span class="estado estado-ok">No ar (uso interno)</span>
+            </div>
+            <p>Organização da equipe: tarefas, pessoas, projetos, análise de commits, campanhas e financeiro. Versão Hostinger em PHP + MySQL e versão Docker em Node.js + PostgreSQL.</p>
+            <p class="links"><a href="https://aqua-alligator-304223.hostingersite.com/" target="_blank" rel="noopener">abrir portal</a> · <a href="file:///home/pedro/Desktop/PortalCybhor/">código</a></p>
+          </li>
+          <li>
+            <div class="portfolio-cabeca">
+              <h3>Sistema de Leads</h3>
+              <span class="estado estado-pendente">Pronto, aguardando publicação</span>
+            </div>
+            <p>CRM de prospecção com PostgreSQL, tempo real, auditoria que não pode ser apagada e backup cifrado. Publicação depende do portão de segurança F0 no VPS.</p>
+            <p class="links"><a href="file:///home/pedro/cybhortech/leads-local/sistema_leads_pg/README.md">README</a> · <a href="file:///home/pedro/cybhortech/leads-local/sistema_leads_pg/">código</a></p>
+          </li>
+          <li>
+            <div class="portfolio-cabeca">
+              <h3>Levantamento patrimonial</h3>
+              <span class="estado estado-ok">Entregue</span>
+            </div>
+            <p>Script Python que gera o documento .docx do setor de patrimônio a partir de um JSON e das fotos de cada bem. Usado no levantamento de TI/Saúde de 07/10/2026.</p>
+            <p class="links"><a href="file:///home/pedro/Automa%C3%A7%C3%A3o_patrimonio/gerar_levantamento.py">script</a> · <a href="file:///home/pedro/Automa%C3%A7%C3%A3o_patrimonio/levantamentos/2026-10-07_ti_saude/LEVANTAMENTO_PATRIMONIO.docx">documento gerado</a></p>
+          </li>
+          <li>
+            <div class="portfolio-cabeca">
+              <h3>Lançamento da marca</h3>
+              <span class="estado estado-ok">Entregue</span>
+            </div>
+            <p>Bio, posts, stories, capas de destaque e Reels do @cybhortech com a tela real do CybhorPDV.</p>
+            <p class="links"><a href="file:///home/pedro/cybhor-brand-launch/">criativos</a> · <a href="file:///home/pedro/Desktop/marketing/cybhor/rebrand/">reels</a> · <a href="file:///home/pedro/Desktop/cybhor-logo/">logos</a></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="desafios" class="secao">
+      <div class="container">
+        <h2>Problemas e dificuldades na criação</h2>
+        <p class="secao-intro">O que travou cada projeto e como foi resolvido. Serve de aprendizado para os próximos.</p>
+
+        <div class="desafio-projeto">
+          <h3>CybhorPDV</h3>
+          <dl class="desafios">
+            <div class="desafio">
+              <dt>Lojas ainda usam Windows 7</dt>
+              <dd><strong>Dificuldade:</strong> as versões novas do Electron não rodam no Windows 7, e boa parte dos caixas de mercado e padaria ainda usa esse sistema.</dd>
+              <dd><strong>Solução:</strong> o app ficou no Electron 22, o último que roda no Windows 7, com um instalador só para Windows 7 a 11 em 32 e 64 bits.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Internet cai no meio da venda</dt>
+              <dd><strong>Dificuldade:</strong> o caixa não pode parar quando a internet cai, mas as vendas precisam chegar à nuvem sem duplicar nem sumir.</dd>
+              <dd><strong>Solução:</strong> fila de vendas offline gravada em disco (não no cache do navegador), que sobrevive a queda de energia e é enviada sozinha quando a conexão volta. Arquivo corrompido é separado em vez de apagado.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Troca de servidor no meio do projeto</dt>
+              <dd><strong>Dificuldade:</strong> a API nasceu em Python (FastAPI) com PostgreSQL, mas a hospedagem escolhida (Hostinger) roda Node.js com MySQL.</dd>
+              <dd><strong>Solução:</strong> a API foi reescrita em Node.js + MySQL, com script de migração dos dados do PostgreSQL. A versão antiga fica no repositório até a troca terminar.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Impressora térmica sem documentação moderna</dt>
+              <dd><strong>Dificuldade:</strong> a Jetway JP-800 só tinha exemplo em Delphi, e imprimir pelo diálogo do Windows deixava o cupom lento e desalinhado.</dd>
+              <dd><strong>Solução:</strong> impressão direta em ESC/POS, igual ao exemplo oficial, com detecção automática da impressora e um modo de teste que gera o cupom sem papel.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Várias lojas no mesmo banco</dt>
+              <dd><strong>Dificuldade:</strong> uma loja nunca pode ver produtos ou vendas de outra, e cada loja pode ter vários caixas.</dd>
+              <dd><strong>Solução:</strong> a loja vem sempre do login, nunca do pedido. Caixas novos entram com o código da loja.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Pagamento confirmado de verdade</dt>
+              <dd><strong>Dificuldade:</strong> o aviso de pagamento do Mercado Pago pode chegar atrasado, repetido ou ser forjado.</dd>
+              <dd><strong>Solução:</strong> a cada aviso o servidor consulta o pagamento direto no Mercado Pago antes de liberar o código da loja.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="desafio-projeto">
+          <h3>Luma</h3>
+          <dl class="desafios">
+            <div class="desafio">
+              <dt>Um carrinho com produtos de várias lojas</dt>
+              <dd><strong>Dificuldade:</strong> o cliente paga uma vez só, mas o dinheiro precisa ir para lojas diferentes, já descontando a comissão.</dd>
+              <dd><strong>Solução:</strong> o pedido é dividido em subpedidos por loja e o valor de cada uma vai para uma carteira, liberada depois da confirmação.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Lojista falso ou com má reputação</dt>
+              <dd><strong>Dificuldade:</strong> qualquer pessoa conseguia abrir uma loja.</dd>
+              <dd><strong>Solução:</strong> validação de CNPJ, consulta de reputação pública e aprovação manual da loja no painel administrativo.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Banco mudando com o sistema no ar</dt>
+              <dd><strong>Dificuldade:</strong> reputação, carteira, cadastro completo e moderação vieram depois do lançamento, com dados reais já gravados.</dd>
+              <dd><strong>Solução:</strong> cinco migrações em sequência e checagens que criam as colunas que faltam ao iniciar, sem derrubar o site.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Admin separado da loja</dt>
+              <dd><strong>Dificuldade:</strong> o painel administrativo não podia ficar acessível pelo endereço público do marketplace.</dd>
+              <dd><strong>Solução:</strong> o servidor separa por domínio: o admin só abre no domínio próprio de operação.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="desafio-projeto">
+          <h3>Portal Cybhor</h3>
+          <dl class="desafios">
+            <div class="desafio">
+              <dt>Hospedagem compartilhada não roda Docker</dt>
+              <dd><strong>Dificuldade:</strong> a versão completa (Node.js, PostgreSQL, WebSocket e armazenamento S3) precisa de Docker, que a Hostinger compartilhada não oferece.</dd>
+              <dd><strong>Solução:</strong> duas versões: uma em PHP + MySQL que roda na Hostinger hoje e outra completa em Docker para uma VPS.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Progresso de projeto "no chute"</dt>
+              <dd><strong>Dificuldade:</strong> as pessoas digitavam a porcentagem dos projetos à mão, e o número não batia com o que estava pronto.</dd>
+              <dd><strong>Solução:</strong> a porcentagem só sobe quando alguém envia o código do commit; a pontuação vem de tarefas entregues, não de horas.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Equipe achou complicado</dt>
+              <dd><strong>Dificuldade:</strong> a primeira versão tinha módulos demais na tela inicial.</dd>
+              <dd><strong>Solução:</strong> o início foi reduzido a três passos (Pessoas, Tarefas e Hoje) e o resto foi para o menu "Mais".</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="desafio-projeto">
+          <h3>Sistema de Leads</h3>
+          <dl class="desafios">
+            <div class="desafio">
+              <dt>Servidor dividido com outros sistemas</dt>
+              <dd><strong>Dificuldade:</strong> a VPS já rodava outros projetos e um banco compartilhado, e no Docker as portas publicadas passam por cima do firewall.</dd>
+              <dd><strong>Solução:</strong> rede Docker exclusiva para o banco, API publicada só para o próprio servidor e um deploy que se recusa a subir se encontrar o banco exposto.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Dados pessoais e LGPD</dt>
+              <dd><strong>Dificuldade:</strong> leads são dados pessoais; quem pede para não ser contatado não pode voltar numa importação nova.</dd>
+              <dd><strong>Solução:</strong> lista de supressão permanente, auditoria que a aplicação não consegue apagar e exportação CSV protegida contra fórmulas maliciosas.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Medo de perder dados num deploy</dt>
+              <dd><strong>Dificuldade:</strong> uma migração com erro poderia estragar a base inteira.</dd>
+              <dd><strong>Solução:</strong> backup automático antes de cada migração, rollback testado e backup diário cifrado fora do servidor.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="desafio-projeto">
+          <h3>Levantamento patrimonial e marca</h3>
+          <dl class="desafios">
+            <div class="desafio">
+              <dt>Centenas de fotos fora de ordem</dt>
+              <dd><strong>Dificuldade:</strong> o levantamento de TI/Saúde teve mais de 340 fotos, e montar o Word à mão levava dias e trocava foto de lugar.</dd>
+              <dd><strong>Solução:</strong> um JSON liga cada bem à sua foto; o script monta a tabela e coloca uma foto por página, redimensionada, na mesma ordem.</dd>
+            </div>
+            <div class="desafio">
+              <dt>Comunicação prometendo o produto errado</dt>
+              <dd><strong>Dificuldade:</strong> os primeiros criativos falavam em "licença única", mas o CybhorPDV é assinatura mensal; e a identidade azul-escura parecia genérica.</dd>
+              <dd><strong>Solução:</strong> regras de texto (só "assinatura", sempre "a partir de R$ 99,90/mês") e uma identidade nova tirada do próprio site do PDV.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="plano" class="secao secao-painel">
+      <div class="container">
+        <div class="plano-cabeca">
+          <div>
+            <h2>Plano de execução — 90 dias</h2>
+            <p class="secao-intro">Marque cada tarefa ao concluir. O progresso fica salvo neste navegador.</p>
+          </div>
+          <div class="plano-total">
+            <span>Concluído</span>
+            <strong id="progresso-total">0 de 0</strong>
+            <button type="button" class="btn-contorno btn-pequeno" id="btn-limpar-progresso">Limpar marcações</button>
+          </div>
+        </div>
+
+        <div class="fase" data-fase>
+          <div class="fase-cabeca">
+            <h3>Fase 1 · Base no domínio <span class="fase-prazo">semanas 1–2</span></h3>
+            <span class="fase-contagem" data-contagem></span>
+          </div>
+          <ol class="tarefas">
+            <li><label><input type="checkbox" data-tarefa="1.1" /> <span><strong>Publicar esta página em cybhor.tech.</strong> Hoje o domínio raiz não responde; a página está em <code>cybertech/</code>.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="1.2" /> <span><strong>Decidir o nome público: Luma ou Looma.</strong> O site e o código usam "Looma"; ajustar um dos dois.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="1.3" /> <span><strong>Resolver o painel administrativo da Luma.</strong> <code>loomaops.com</code> não responde: renovar o domínio ou trocar por um subdomínio de cybhor.tech.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="1.4" /> <span><strong>Corrigir o link de download do README do PDV.</strong> A página de Releases do GitHub dá 404 para quem não está logado; o download oficial é pela área do cliente.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="1.5" /> <span><strong>Monitorar os serviços.</strong> Alerta quando <code>pdv.cybhor.tech/api/saude</code> ou <code>looma.cybhor.tech/api/status</code> não responder.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="1.6" /> <span><strong>Fechar o portão F0 do VPS e publicar o Sistema de Leads.</strong> Seguir a seção 0 do README do projeto.</span></label></li>
+          </ol>
+        </div>
+
+        <div class="fase" data-fase>
+          <div class="fase-cabeca">
+            <h3>Fase 2 · Vender PDV e Luma <span class="fase-prazo">semanas 3–6</span></h3>
+            <span class="fase-contagem" data-contagem></span>
+          </div>
+          <ol class="tarefas">
+            <li><label><input type="checkbox" data-tarefa="2.1" /> <span><strong>Rodar a grade do @cybhortech:</strong> 3 Reels e 2 posts por semana, sempre levando ao teste de 30 dias.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="2.2" /> <span><strong>Prospectar pelo Sistema de Leads</strong> a base de comércios do noroeste de SP, com demonstração do PDV.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="2.3" /> <span><strong>Oferecer o combo PDV + loja na Luma</strong> para quem já usa o caixa.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="2.4" /> <span><strong>Medir toda semana:</strong> testes iniciados, testes que viraram assinatura e lojas ativas na Luma.</span></label></li>
+          </ol>
+        </div>
+
+        <div class="fase" data-fase>
+          <div class="fase-cabeca">
+            <h3>Fase 3 · Sites e soluções sob medida <span class="fase-prazo">semanas 7–10</span></h3>
+            <span class="fase-contagem" data-contagem></span>
+          </div>
+          <ol class="tarefas">
+            <li><label><input type="checkbox" data-tarefa="3.1" /> <span><strong>Definir preço e prazo</strong> dos quatro tipos de site.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="3.2" /> <span><strong>Escrever a proposta padrão</strong> (escopo, prazo, pagamento, manutenção) para sites e sistemas.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="3.3" /> <span><strong>Publicar dois casos</strong> no portfólio desta página, com print e resultado.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="3.4" /> <span><strong>Oferecer Portal e Sistema de Leads</strong> como implantação para outras empresas.</span></label></li>
+          </ol>
+        </div>
+
+        <div class="fase" data-fase>
+          <div class="fase-cabeca">
+            <h3>Fase 4 · Rotina e revisão <span class="fase-prazo">semanas 11–12</span></h3>
+            <span class="fase-contagem" data-contagem></span>
+          </div>
+          <ol class="tarefas">
+            <li><label><input type="checkbox" data-tarefa="4.1" /> <span><strong>Registrar todas as tarefas e entregas no Portal Cybhor.</strong></span></label></li>
+            <li><label><input type="checkbox" data-tarefa="4.2" /> <span><strong>Revisar o trimestre:</strong> assinaturas do PDV, vendas na Luma, sites entregues e caixa da empresa.</span></label></li>
+            <li><label><input type="checkbox" data-tarefa="4.3" /> <span><strong>Planejar os próximos 90 dias</strong> a partir desses números.</span></label></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <span class="marca">Cybhor<strong>Tech</strong></span>
+      <p>Estado dos serviços conferido em 25/10/2026.</p>
+    </div>
+  </footer>
+
+  <script src="plano.js"></script>
+</body>
+</html>

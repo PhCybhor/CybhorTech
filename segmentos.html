@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Segmentos — Cybhor Tech</title>
+  <meta name="description" content="Atendemos varejo, alimentação, serviços e escritórios com produtos prontos ou projeto sob medida." />
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="site.css?v=20261027o" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="index.html" class="marca">
+        <img src="img/logo-branco.svg" width="28" height="28" alt="" class="marca-clara" />
+        <img src="img/logo.svg" width="28" height="28" alt="" class="marca-escura" />
+        <span>Cybhor <strong>Tech</strong></span>
+      </a>
+
+      <button type="button" class="menu-abrir" id="menu-abrir" aria-expanded="false" aria-controls="menu-principal">
+        Menu
+      </button>
+
+      <nav class="menu" id="menu-principal" aria-label="Principal">
+        <div class="menu-item" data-dropdown>
+          <button type="button" class="menu-gatilho" aria-expanded="false">Produtos</button>
+          <div class="menu-painel" hidden>
+            <a href="pdv.html"><strong>CybhorPDV</strong><span>Caixa para loja física</span></a>
+            <a href="looma.html"><strong>Looma</strong><span>Shopping online para sua loja</span></a>
+            <a href="sob-medida.html"><strong>Projeto sob medida</strong><span>Site, sistema ou automação feitos do zero para você</span></a>
+          </div>
+        </div>
+        <a href="segmentos.html" class="ativo">Segmentos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="pesquisa.html" class="btn-pesquisa-nav">Pesquisa IA</a>
+        <button type="button" class="btn-contato" data-abrir-contato>Entre em contato</button>
+        <div class="menu-item" data-dropdown>
+          <button type="button" class="menu-gatilho menu-cliente" aria-expanded="false">Sou cliente</button>
+          <div class="menu-painel" hidden>
+            <a href="https://pdv.cybhor.tech/login.html" target="_blank" rel="noopener">Entrar no CybhorPDV</a>
+            <a href="https://looma.cybhor.tech/login.html" target="_blank" rel="noopener">Entrar na Looma</a>
+            <a href="https://looma.cybhor.tech/seller-dashboard.html" target="_blank" rel="noopener">Painel da loja (Looma)</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="pagina-hero">
+      <div class="container pagina-hero-conteudo">
+        <p class="eyebrow eyebrow-claro">Para quem</p>
+        <h1>Segmentos que atendemos</h1>
+        <p class="pagina-hero-lead">
+          Em cada segmento oferecemos produto pronto (PDV ou Looma) ou
+          <strong>projeto sob medida</strong> quando a rotina pede algo específico.
+        </p>
+      </div>
+    </section>
+
+    <section class="secao secao-clara">
+      <div class="container revelar">
+        <ul class="segmentos">
+          <li><strong>Varejo</strong><span>PDV pronto ou sistema sob medida para a loja</span></li>
+          <li><strong>Alimentação</strong><span>Caixa, cardápio online ou projeto sob medida</span></li>
+          <li><strong>Serviços</strong><span>Agenda, clientes e rotina sob medida</span></li>
+          <li><strong>Vendas online</strong><span>Looma pronta ou loja sob medida</span></li>
+          <li><strong>Escritórios</strong><span>Sai a planilha, entra sistema sob medida</span></li>
+          <li><strong>Outros</strong><span>Conte o caso — avaliamos se cabe sob medida</span></li>
+        </ul>
+        <div class="acoes" style="margin-top:2rem">
+          <button type="button" class="btn-tinta" data-abrir-contato>Pedir projeto sob medida</button>
+          <a class="btn-contorno" href="sob-medida.html">Como funciona o sob medida</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <dialog id="contato" class="contato-dialog" aria-labelledby="contato-titulo">
+    <form method="dialog" class="contato-dialog-topo">
+      <h2 id="contato-titulo">Entre em contato</h2>
+      <button type="submit" class="contato-fechar" aria-label="Fechar">×</button>
+    </form>
+    <p class="contato-intro">Conte o que precisa. Fazemos <strong>projeto sob medida</strong> (site, sistema ou automação) e também indicamos o CybhorPDV ou a Looma se um produto pronto já resolver. Proposta sem compromisso.</p>
+    <form id="form-orcamento" class="formulario" novalidate data-whatsapp="" data-instagram="cybhortech">
+      <label class="campo">
+        <span>Seu nome</span>
+        <input name="nome" type="text" required minlength="2" maxlength="80" autocomplete="name" />
+      </label>
+      <label class="campo">
+        <span>Nome da empresa <small>(opcional)</small></span>
+        <input name="empresa" type="text" maxlength="80" autocomplete="organization" />
+      </label>
+      <label class="campo">
+        <span>O que você precisa?</span>
+        <select name="tipo" required>
+          <option value="">Escolha uma opção</option>
+          <option>Projeto sob medida (site, sistema ou automação)</option>
+          <option>Um site sob medida</option>
+          <option>Um sistema sob medida</option>
+          <option>Automatizar uma tarefa sob medida</option>
+          <option>Usar o CybhorPDV (produto pronto)</option>
+          <option>Vender na Looma (produto pronto)</option>
+          <option>Ainda não sei — quero orientação</option>
+        </select>
+      </label>
+      <label class="campo">
+        <span>Conte em poucas palavras</span>
+        <textarea name="descricao" rows="4" required minlength="10" maxlength="1000"
+                  placeholder="Ex.: preciso de um sistema sob medida para agenda e pedidos da minha clínica."></textarea>
+      </label>
+      <label class="campo">
+        <span>Seu WhatsApp</span>
+        <input name="whatsapp" type="tel" required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="(11) 99999-9999" />
+      </label>
+      <p class="form-erro" id="form-erro" role="alert" hidden></p>
+      <button type="submit" class="btn-claro">Enviar pedido</button>
+      <p class="form-retorno" id="form-retorno" role="status" hidden></p>
+    </form>
+  </dialog>
+
+  <footer class="rodape">
+    <div class="container rodape-grade">
+      <div>
+        <p class="rodape-marca">Cybhor Tech</p>
+        <p>Produtos prontos e projetos sob medida para o seu negócio.</p>
+        <p class="rodape-marca-linha">cybhor.tech</p>
+      </div>
+      <div>
+        <p class="rodape-titulo">Soluções</p>
+        <a href="pdv.html">CybhorPDV</a>
+        <a href="looma.html">Looma</a>
+        <a href="sob-medida.html">Projeto sob medida</a>
+      </div>
+      <div>
+        <p class="rodape-titulo">Cliente</p>
+        <a href="https://pdv.cybhor.tech/login.html" target="_blank" rel="noopener">Área do CybhorPDV</a>
+        <a href="https://looma.cybhor.tech/login.html" target="_blank" rel="noopener">Área da Looma</a>
+        <button type="button" class="rodape-contato" data-abrir-contato>Entre em contato</button>
+      </div>
+      <div>
+        <p class="rodape-titulo">Empresa</p>
+        <a href="pesquisa.html">Pesquisa IA</a>
+        <a href="segmentos.html">Segmentos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="https://instagram.com/cybhortech" target="_blank" rel="noopener">Instagram @cybhortech</a>
+      </div>
+    </div>
+    <div class="container rodape-base">
+      <span>© Cybhor Tech · cybhor.tech</span>
+    </div>
+  </footer>
+
+  <script src="site.js?v=20261027o"></script>
+</body>
+</html>
